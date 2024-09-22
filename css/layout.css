@@ -3140,6 +3140,65 @@ ul.slimmenu li > ul {
     font-style: normal;
 } */
 
+.branding {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    border: 2px solid #262626;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+li:hover .branding {
+    background-color: #262626; 
+	color: white; 
+    transform: translateY(-10px); 
+    border-color: white; 
+}
+.services_ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.services_li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+	color: #262626;
+    font-size: 18px;
+    line-height: 1.6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services_li strong {
+    color: #333;
+    font-weight: bold;
+}
+
+.services_li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.imageBrand {
+	object-fit: contain;
+	width: 400px;
+	height: 400px;
+	background-size: cover;
+}
+
+
 @font-face {
     font-family: 'GentonaHeavy';
     src: url('font/alice-webfont.woff2') format('woff2'),

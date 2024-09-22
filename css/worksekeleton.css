@@ -269,3 +269,24 @@ or wrap each row of columns in a <div class="row"> */
   width: 0;
   height: 0;
 }
+@font-face {
+  font-family: 'GentonaHeavy';
+  src: url('../font/alice-webfont.woff2') format('woff2'),
+       url('../font/alice-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TisaPro-Ita';
+  src: url('../font/alice-webfont.woff2') format('woff2'),
+       url('../font/alice-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GentonaLight';
+  src: url('../font/vadola-webfont.woff2') format('woff2'),
+       url('../font/vadola-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
